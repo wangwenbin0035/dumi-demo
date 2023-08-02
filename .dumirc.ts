@@ -5,6 +5,8 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi-lib',
   },
-  base: '/dumi-demo/',
+  base: process.env.NODE_ENV === 'production' ? "/dumi-demo" : "/",
   publicPath: '/dumi-demo/',
+  runtimePublicPath: {},
+  // exportStatic: true
 });
