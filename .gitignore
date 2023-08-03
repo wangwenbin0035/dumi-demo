@@ -3,4 +3,5 @@ node_modules
 .dumi/tmp
 .dumi/tmp-test
 .dumi/tmp-production
+docs-list
 .DS_Store
